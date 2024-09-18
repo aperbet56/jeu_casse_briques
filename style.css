@@ -1,0 +1,80 @@
+/**** Imoprtation des polices ****/
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #efc8b1;
+    color: #514644;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #514644;
+    color: #efc8b1;
+}
+
+h1, footer span {
+    text-align: center;
+    font-family: "Shrikhand", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+canvas {
+    background-color: #ffffff;
+    position: relative;
+}
+
+.score {
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer span {
+    font-size: 20px;
+}
